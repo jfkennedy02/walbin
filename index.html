@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walbin - The Whale Robin Hood 🐋</title>
+    <meta name="description" content="Walbin - A whale robin hood that is here to make everybody in its community rich and equal">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/walbin-logo.png" alt="Walbin Logo" class="nav-logo-img">
+                <span class="nav-title">WALBIN</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#showcase" class="nav-link">Videos</a>
+                <a href="#tokenomics" class="nav-link">Token</a>
+                <a href="#community" class="nav-link">Community</a>
+            </div>
+            <div class="nav-mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Meet <span class="gradient-text">WALBIN</span>
+                        <br>The Whale Robin Hood! 🐋
+                    </h1>
+                    <p class="hero-subtitle">
+                        Making everyone in our community rich and equal, one splash at a time!
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="https://t.me/Walbinsolana" target="_blank" class="btn btn-primary">
+                            <i class="fab fa-telegram"></i>
+                            Join Community
+                        </a>
+                        <a href="https://x.com/i/communities/1949611367641563442" target="_blank" class="btn btn-twitter">
+                            <i class="fab fa-twitter"></i>
+                            Join X Community
+                        </a>
+                        <button class="btn btn-secondary" onclick="copyContractAddress()">
+                            <i class="fas fa-copy"></i>
+                            Copy CA
+                        </button>
+                        <a href="https://dexscreener.com/solana/bzqztgf3cjhy4ckntw4ectbz29ntmsfps8ffur8mzdy8" target="_blank" class="btn btn-dex">
+                            <i class="fas fa-chart-line"></i>
+                            DexScreener
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-mascot">
+                    <div class="mascot-container">
+                        <img src="assets/walbin-logo.png" alt="Walbin Mascot" class="mascot-img">
+                        <div class="mascot-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">The Robin Hood of the Ocean 🌊</h2>
+                <p class="section-subtitle">
+                    Walbin is not just another meme token - it's a movement for financial equality!
+                </p>
+            </div>
+            <div class="about-content">
+                <div class="about-cards">
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Community First</h3>
+                            <p>Every decision is made with our community in mind. We're all in this together!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Equal Opportunity</h3>
+                            <p>Just like Robin Hood, we believe everyone deserves a fair chance at financial freedom.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>To The Moon</h3>
+                            <p>Together we rise! Walbin is here to take the entire community to new heights.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Showcase Section -->
+    <section id="showcase" class="video-showcase">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Meet Walbin in Action 🎬</h2>
+                <p class="section-subtitle">
+                    Watch our whale hero make waves in the crypto ocean!
+                </p>
+            </div>
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <video 
+                            autoplay
+                            loop
+                            muted 
+                            preload="metadata"
+                            poster="assets/walbin-logo.png"
+                            class="showcase-video"
+                        >
+                            <source src="assets/walbin-video-1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="video-info">
+                        <h3>Walbin's Journey</h3>
+                        <p>Experience the whale's mission to unite the community</p>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <video 
+                            autoplay
+                            loop
+                            muted 
+                            preload="metadata"
+                            poster="assets/walbin-logo.png"
+                            class="showcase-video"
+                        >
+                            <source src="assets/walbin-video-2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="video-info">
+                        <h3>Community Spirit</h3>
+                        <p>See how Walbin brings everyone together in the pod</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Token Info Section -->
+    <section id="tokenomics" class="token-info">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Token Information 🪙</h2>
+            </div>
+            <div class="token-grid">
+                <div class="token-card">
+                    <h3>Ticker Symbol</h3>
+                    <div class="token-value">$WALBIN</div>
+                </div>
+                <div class="token-card contract-card">
+                    <h3>Contract Address</h3>
+                    <div class="contract-address" id="contractAddress">
+                        5aXs5m96u4NeiqoFcBjTTUyy6sVfoEReuBw1Az9JuAcm
+                    </div>
+                    <button class="copy-btn" onclick="copyContractAddress()">
+                        <i class="fas fa-copy"></i>
+                        Copy
+                    </button>
+                </div>
+                <div class="token-card">
+                    <h3>Network</h3>
+                    <div class="token-value">Solana</div>
+                </div>
+            </div>
+            <div class="token-description">
+                <h3>About $WALBIN</h3>
+                <p>
+                    A whale robin hood that is here to make everybody in its community rich and equal. 
+                    Walbin represents the spirit of sharing wealth and creating opportunities for all. 
+                    Join our pod and let's swim to success together! 🐋✨
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="community">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Join The Pod 🐋</h2>
+                <p class="section-subtitle">
+                    Connect with fellow Walbin supporters and stay updated on our journey!
+                </p>
+            </div>
+            <div class="social-links">
+                <a href="https://t.me/Walbinsolana" target="_blank" class="social-card telegram">
+                    <i class="fab fa-telegram"></i>
+                    <h3>Telegram</h3>
+                    <p>Join our community chat</p>
+                </a>
+                <a href="https://x.com/i/communities/1949611367641563442" target="_blank" class="social-card twitter">
+                    <i class="fab fa-twitter"></i>
+                    <h3>Twitter</h3>
+                    <p>Follow for updates</p>
+                </a>
+                <a href="https://dexscreener.com/solana/bzqztgf3cjhy4ckntw4ectbz29ntmsfps8ffur8mzdy8" target="_blank" class="social-card dexscreener">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>DexScreener</h3>
+                    <p>View charts & trading</p>
+                </a>
+                <a href="https://walbinsolana.io" target="_blank" class="social-card website">
+                    <i class="fas fa-globe"></i>
+                    <h3>Website</h3>
+                    <p>Official site</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="footer-title">WALBIN</span>
+                    <p>The Whale Robin Hood 🐋</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-social">
+                        <a href="https://t.me/Walbinsolana" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="https://x.com/i/communities/1949611367641563442" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://walbinsolana.io" target="_blank"><i class="fas fa-globe"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Walbin. Making waves in DeFi! 🌊</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sliding Ticker -->
+    <div class="ticker-container">
+        <div class="ticker-slide ticker-top">
+            <div class="ticker-content">
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+            </div>
+        </div>
+        
+        <div class="ticker-slide ticker-middle">
+            <div class="ticker-content reverse">
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+            </div>
+        </div>
+        
+        <div class="ticker-slide ticker-bottom">
+            <div class="ticker-content">
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+                <img src="assets/walbin-logo.png" alt="Walbin" class="ticker-logo">
+                <span class="ticker-text">$WALBIN</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <i class="fas fa-check-circle"></i>
+        <span>Contract address copied to clipboard!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
